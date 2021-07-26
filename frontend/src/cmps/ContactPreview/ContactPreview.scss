@@ -1,0 +1,25 @@
+@import "../../assets/scss/setup/functions";
+
+.contact-preview {
+    background-color: #13161F;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+        background-color: #363f58;
+    }
+    img {
+        width: 80px;
+        margin-inline-end: 10px;
+        border-radius: 5px;
+    }
+    p {
+        margin-inline-end: 20px;
+        max-width: 6ch;
+        // font-size: rem(16px);
+    }
+}

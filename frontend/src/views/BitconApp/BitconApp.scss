@@ -1,0 +1,35 @@
+.bitcon-app {
+    background-image: url(../../assets/img/overview-bg.svg);
+    background-size: cover;
+    margin-block-start: 10px;
+    height: 90vh;
+    color: beige;
+    font-family: Segoe-Bold;
+
+    > * {
+        margin-block-start: 10px;
+    }
+
+    .details-user {
+        margin-block-start: 200px;
+        margin-inline-end: 80px;
+
+        .img {
+            width: 250px;
+            margin: 0;
+            border-radius: 5px;
+        }
+    }
+
+    .coins {
+        margin-block-start: 200px;
+        margin-inline-end: 50px;
+        font-size: 20px;
+       
+        img{
+            width: 50px;
+            margin-inline-end: 10px;
+            margin-block-start: 5px;
+        }
+    }
+}

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Segoe, serif;
+  line-height: 1.6;
+  font-size: rem(16px);
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Segoe-Bold, serif;
+  margin: 0;
+  font-weight: 600;
+}
+
+h4 {
+  font-family: Segoe, serif;
+  margin: 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: rem(16px);
+}
+
+p {
+  max-width: 48ch;
+  margin: 0;
+}
+
+img {
+  width: 20px;
+}
+
+/* ROUTES */
+
+a {
+
+  text-decoration: none;
+  line-height: 1;
+}
+
+a:focus,
+a.router-link-exact-active {
+  font-weight: bold;
+}
+
+hr {
+  background-color: rgba(9, 30, 66, 0.13);
+  border: 0;
+  height: 1px;
+  margin: 0;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+}
+
+
+
+/* BUTTON */
+
+button {
+  cursor: pointer;
+}
+
+.textarea {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  resize: none;
+  outline: none;
+  border: none;
+  width: 250px;
+  height: 65px;
+  border-radius: 3px;
+  font-family: Segoe, serif;
+  letter-spacing: normal;
+}
+

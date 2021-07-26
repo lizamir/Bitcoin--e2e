@@ -1,0 +1,12 @@
+.demo-image{
+    position: absolute;
+    visibility: hidden;
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    z-index: -100;
+    left: 0;
+    top: 0;
+}
